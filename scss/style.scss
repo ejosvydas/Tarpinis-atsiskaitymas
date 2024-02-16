@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import "base";
+
+
+
+.header {
+  background: #F8F9FA;
+  min-height: 40px;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  justify-content: space-around;
+  align-items: center;
+
+  #button {
+    width: 60px;
+    height: 28px;
+  }
+}
+
+.bgimage {
+  height: 640px;
+  background: url("/app/images/bg-masthead.jpg") no-repeat center center/cover;
+  display: flex;
+ justify-content: center;
+ flex-direction: column;
+}
+
+.box1 {
+  background: #F8F9FA;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 220px;
+  text-align: center;
+
+  h3,
+  p {
+    text-align: center;
+    padding-top: 12px;
+  }
+
+  p {
+    color: #8C8F91;
+    line-height: 24px;
+  }
+
+  img {
+    width: 100px;
+  }
+}
+
+.flex-container {
+  background: white;
+  display: flex;
+  align-items: center;
+}
+
+.main-text {
+
+  h3 {
+    font-size: 26px;
+    padding-bottom: 10px;
+  }
+
+  p {
+    color: #8C8F91;
+    line-height: 24px;
+    text-align: left;
+    word-spacing: 6px;
+  }
+
+  h3,
+  p {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+}
+
+.flex-container > div {
+  width: 50%;
+}
+
+.side-img {
+  height: 600px;
+  background: url("/app/images/bg-showcase-1.jpg") no-repeat center center/cover;
+}
+
+.flex-container-2 {
+  background: white;
+  display: flex;
+  align-items: center;
+}
+
+.side-img2 {
+  height: 600px;
+  background: url("/app/images/bg-showcase-2.jpg") no-repeat center center/cover;
+}
+
+.flex-container-2 > div {
+  width: 50%;
+}
+
+.flex-container-3 {
+  background: white;
+  display: flex;
+  align-items: center;
+}
+
+.side-img3 {
+  height: 600px;
+  background: url("/app/images/bg-showcase-3.jpg") no-repeat center center/cover;
+}
+
+.flex-container-3 > div {
+  width: 50%;
+}
+
+section img {
+  border-radius: 50px;
+  box-shadow: 0 4px 3px 0 rgba(102, 102, 102, 0.2);
+}
+
+.computer {
+
+  p::before {
+    content: "This theme will look gret on any";
+  }
+  
+  p::after {
+    content: "device, no matter the size!";
+    display: block;
+}
+}
+
+.layers {
+  p::before {
+    content: "Featuring the latest build of the new";
+  }
+  
+  p::after {
+    content: "Bootstrap 4 framework!";
+    display: block;
+}
+}
+
+.verify {
+  p::before {
+    content: "Ready to use with your own content,";
+  }
+  
+  p::after {
+    content: "or customize the source files!";
+    display: block;
+}
+}
+
+
+form {
+  padding: 15px;
+
+  input {
+    margin: 2px;
+  }
+}
+
+#email {
+  width: 300px;
+  height: 35px;
+  border-radius: 5px;
+  border-style: none;
+  padding-left: 13px;
+}
+
+#button {
+  background: #007BFF;
+  border-style: none;
+  border-radius: 4px;
+  width: 100px;
+  height: 35px;
+  color: white;
+}
+
+.bgimage {
+  color: white;
+  line-height: 1.4;
+  text-align: center;
+
+  h1 {
+    font-size: 38px;
+  }
+
+  h1::before {
+    content: "Build a landing page for your business";
+  }
+  
+  h1::after {
+    content: "or project and generate more leads!";
+    display: block;
+  }
+}
+
+.bgimage-2 {
+  height: 320px;
+  background: url("/app/images/bg-masthead.jpg") no-repeat center center/cover;
+  display: flex;
+ justify-content: center;
+ flex-direction: column;
+
+ color: white;
+  line-height: 1.4;
+  text-align: center;
+
+  h1 {
+    font-size: 22px;
+  }
+}
+
+.navigation {
+  height: 110px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 45px;
+  
+
+  p {
+    font-size: 10px;
+    color: #8C8F91;
+  }
+}
+
+nav a {
+  color: #0F83FE;
+  text-decoration: none;
+  padding: 8px;
+
+}
+
+.item {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logos {
+
+  img {
+    margin: 10px;
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .box1,
+   .flex-container,
+   .flex-container-2,
+   .flex-container-3
+   .bgimage-2,
+   .navigation {
+    
+    display: block;
+    text-align: center;
+  }
+
+  .bgimage {
+    height: 760px;
+  }
+
+  .box1 {
+    height: 760px;
+    padding: 60px;
+    line-height: 30px;
+  }
+
+
+  .side-img {
+    background: url("/app/images/bg-showcase-1.jpg") no-repeat center center/cover; 
+  }
+}
+
+
+
